@@ -1,0 +1,593 @@
+/*
+Theme Name: Suporte Eventos
+Theme URI: http://www.suporteventos.com.br
+Author: Marcel Santos
+Author URI: http://www.marcelsantos.com.br
+Description: Site da empresa suporte eventos
+Version 2.0
+*/
+
+
+.imagem-produto img, .single-produtos img {
+    width: 100%;
+    height: auto;
+}
+
+.header-nav .container-fluid {
+    margin: 0;
+    padding: 0;
+}
+.navbar-default {
+    background-color:#E2A00E;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    background-color:#E2A00E;
+}
+.navbar-default .navbar-nav > li > a{
+    color: #fff;
+    font-weight: bold;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.imagem-logo-topo{
+    padding: 25px 120px
+}
+.container-prod {
+    padding: 0;
+}
+.img-topo-logo-centro {
+position: absolute;
+margin-left: 162px;
+z-index: 9999;
+}
+.navbar {
+    margin-bottom: 0;
+    border:none;
+}
+.navbar-nav > li > a {
+    padding-top: 37px;
+    padding-bottom: 20px;
+}
+
+
+/* ============= FIM HEADER NAVBAR ================ */
+
+
+
+
+/* ============= SLIDER ================ */
+.slider-box {
+margin: 0;
+padding: 0;
+height: auto;
+background-color: #fff;
+overflow: hidden;
+}
+.text-slider {
+    background-color: #751C2E;
+    background-color: rgba(117, 28, 46, 0.73);
+    width: 80%;
+    margin-left: 10%;
+    bottom: 50px;
+    position: absolute;
+    z-index: 99999;
+
+}
+.text-slider h4 {
+    color: #fff;
+}
+.owl-carousel .owl-item img{
+    float: left;
+}
+.text-slider img {
+    width: 100%;
+}
+.text-slider h4 {
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
+}
+
+
+
+
+.row {
+    margin: 0;
+}
+
+span.busca-por-produto {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+}
+.dropdown-search-box{
+    background-color: #E2A00E;
+
+}
+.dropdown button {
+    margin-top: 8px;
+}
+
+
+
+
+
+
+.content-main {
+    background-image: url(images/bg_home.jpg);
+
+}
+.novidades {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.stick-novidades {
+    position: absolute;
+    margin-left: 255px;
+    margin-top: 25px;
+    z-index: 999;
+}
+.box-mini-produtos {
+    margin: 20px 0;
+}
+/*.box-mini-produtos {
+    background-color: #ed5353;
+
+}*/
+.prod-main-img {
+    background-color: yellow;
+    padding: 0;
+}
+.prod-main-link {
+    background-color: #E2A00E;
+}
+.prod-main-link p span  {
+    display: block;
+    color: #fff;
+    font-weight: bolder;
+
+    line-height:40px;
+}
+
+@media (min-width: 992px){
+.box-mini-produtos {
+    /*margin-left:11%;*/
+}
+
+}
+
+/*@media (max-width: 991px){
+ .box-mini-produtos {
+    margin:0;
+}
+.box-mini-produtos .prod-main-img img {
+width: 100%;
+}
+}*/
+
+.newsletter .container-fluid {
+    margin: 0;
+    padding: 0;
+}
+.newsletter {
+
+    background-color: #E2A00E;
+}
+
+
+.copyright-fluid{
+    background-color: #751C2E;
+}
+.copyright p {
+    color: #fff;
+    margin: 10px 0;
+
+}
+
+
+
+
+
+
+/*PAGINA PRODUTOS*/
+
+.menu-produtos-main-container {
+    padding: 5px 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.menu-produtos-main-container-sub {
+    padding: 5px 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.menu-prdoutos-main {
+    padding: 20px 0;
+
+}
+.menu-prdoutos-main ul {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+.menu-prdoutos-main li {
+    float: left;
+    margin: 14px 4px;
+}
+.menu-prdoutos-main li a {
+    padding: 8px;
+    color: #E2A00E;
+    border: 1px solid #E2A00E;
+    border-radius: 7px;
+}
+.quantidade-itens {
+    border:1px solid #E2A00E;
+    padding-top: 10px;
+
+}
+.quantidade-itens p {
+    margin:0px 0px 5px;
+}
+@media (min-width: 992px){
+    .produtos-box{
+        width: 48%;
+        margin: 1%;
+    }
+}
+@media (min-width: 768px){
+    .produtos-box{
+        width: 48%;
+        margin: 1%;
+    }
+}
+@media (max-width: 767px){
+    .produtos-box{
+
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+}
+.produtos-box {
+    background-color: #EAEAEA;
+    padding-left: 0;
+    padding-right: 0;
+    border:1px solid #DBD0D0;
+    box-shadow: 0px 1px 2px #000;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33);
+}
+.texto-e-btn a.btn-go {
+    text-align: center;
+border: 2px solid #E2A00E;
+padding: 2px 15px;
+border-radius: 10px;
+font-size: 16px;
+font-family: "lato",verdana;
+line-height: 50px;
+color: #E2A00E;
+}
+.texto-e-btn a.ver-evento {
+        font-size: 9px;
+    text-transform: uppercase;
+    padding: 4px;
+    background-color: #E2A00E;
+    border: 1px solid #F5F5F5;
+    color: #FFF;
+}
+.banner-pgs {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+
+
+
+
+
+
+/* ======= AEMPRESA ========== */
+.aempresa-full {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(images/bg_empresa.jpg);
+}
+.aempresa-box h1 {
+    color: #E2A00E;
+}
+.aempresa-box p {
+    color: #fff;
+}
+.telefones {
+   border: 2px solid #E2A00E;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.tels p{
+    color: #fff;
+    margin:6px;
+}
+
+
+
+
+
+
+
+/* ========== SINGLE =========== */
+.single-produtos{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.single-produtos a{
+border: 2px solid #E2A00E;
+padding: 2px 15px;
+border-radius: 10px;
+font-size: 16px;
+font-family: "lato",verdana;
+line-height: 50px;
+color: #E2A00E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 816px) {
+
+      /* =========== Meu pedido  ============== */
+
+    .meupedidofull  {
+        width: 100%;
+
+        margin-bottom: 80px;
+    }
+
+    .meu-pedido-box {
+        width: 940px;
+        margin: 0 auto;
+        /*  padding-top: 10px;
+        padding-bottom: 10px;*/
+    }
+
+    .meu-pedido-itens {
+        width: 900px;
+        /*height: 215px;*/
+    /*  background: #ed5353;*/
+        margin: 20px auto;
+        border-radius: 5px;
+        border: solid 1px #ccc;
+        padding: 5px;
+    }
+
+    .meu-pedido-itens img {
+    width: 380px;
+      height: 251px;
+    }
+    .meu-pedido-itens a {
+        color: red;
+        padding-left: 10px;
+        margin-top: -120px;
+        height: 40px;
+        float: left;
+    }
+    .quantidade {
+        width: 65px;
+        height: 55px;
+        float: left;
+        margin-top: 70px;
+        }
+    .meu-pedido-foto {
+        width: 285px;
+        height: 205px;
+        float: left;
+    }
+    .meu-pedido-foto img {
+        width: 285px;
+        height: 205px;
+    }
+    .meu-pedido-texto {
+        width: 200px;
+        height: 205px;
+        float: left;
+    }
+    .meu-pedido-texto h5 {
+        font-size: 22px;
+        font-family: 'lato', verdana;
+    }
+    .meu-pedido-texto p {
+        font-size: 15px;
+        font-family: 'lato', verdana;
+    }
+    .meu-pedido-texto p, .meu-pedido-texto h5 {
+        padding: 12px;
+    }
+    .meu-pedido-fechar {
+        width: 35px;
+        height: 205px;
+        float: left;
+    }
+    .quantidade label {
+        font-size: 12px;
+        font-weight: lighter;
+    }
+    .meu-pedido-fechar a {
+        color: red;
+        padding-left: 20px;
+    }
+    .quantidade input {
+        width: 60px;
+       /* ===========  Fim meu pedido ============== */
+    }
+
+    td {
+        padding:5px;
+        border-bottom: 1px solid #ccc;
+    }
+
+        .finalizar-pedido a {
+
+        overflow: auto;
+        color: #666666;
+        font-size: 13px;
+        border-radius: 5px;
+        border: 1px solid #E2A00E;
+        padding: 10px 10px;
+
+
+    }
+    .finalizar-pedido a:hover {
+        background: #E2A00E;
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 815px){
+
+        .meupedidofull  {
+        width: 100%;
+
+        margin-bottom: 30px;
+
+    }
+    .meu-pedido-box {
+        width: 96%;
+        margin: 0 auto;
+    /*  padding-top: 10px;
+        padding-bottom: 10px;*/
+    }
+
+    .meu-pedido-itens {
+        width: 96%;
+
+    /*  background: #ed5353;*/
+        margin: 20px auto;
+
+        border-radius: 5px;
+        border: solid 1px #ccc;
+        padding: 5px;
+    }
+
+    .quantidade {
+        width: 18%;
+        height: 55px;
+        float: left;
+        margin-top: 70px;
+        }
+    .meu-pedido-foto {
+        width: 30%;
+        height: 205px;
+        float: left;
+    }
+    td {
+        padding:5px;
+        border-bottom: 1px solid #ccc;
+    }
+    .item-remove a {
+        color: red;
+    }
+    .item-thumb {
+        width: 20%;
+    }
+    .item-quantity {
+        width: 15%;
+    }
+    .item-thumb img {
+        width: 100%;
+        height: 40px;
+    }
+    .meu-pedido-itens input {
+        width: 100%;
+    }
+    .meu-pedido-texto {
+        width: 45%;
+        height: 205px;
+        float: left;
+    }
+    .meu-pedido-texto h5 {
+        font-size: 22px;
+        font-family: 'lato', verdana;
+    }
+    .meu-pedido-texto p {
+        font-size: 13px;
+        font-family: 'lato', verdana;
+    }
+    .meu-pedido-texto p, .meu-pedido-texto h5 {
+        padding: 2px;
+    }
+    .meu-pedido-fechar {
+        width: 4%;
+        height: 205px;
+        float: left;
+    }
+    .quantidade label {
+        font-size: 12px;
+        font-weight: lighter;
+    }
+    .meu-pedido-fechar a {
+        color: red;
+        padding-left: 20px;
+    }
+    .quantidade input {
+        width: 60px;
+    }
+    .finalizar-pedido {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .finalizar-pedido p {
+        text-align: center;
+    }
+    .finalizar-pedido a {
+        text-align: center;
+        overflow: auto;
+        color: #666666;
+        font-size: 13px;
+        border-radius: 5px;
+        border: 1px solid #E2A00E;
+        padding: 10px 10px;
+
+
+    }
+    .finalizar-pedido a:hover {
+        background: #E2A00E;
+        color: #fff;
+        text-decoration: none;
+    }
+}
